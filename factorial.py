@@ -1,12 +1,12 @@
-#def fact(n):
- #   return 1 if (n==1 or n==0) else n*fact(n-1)
-#num=7
-#print("factorial of ",num,"is",fact(num))
+def fact(n):
+    return 1 if (n==1 or n==0) else n*fact(n-1)
+num=7
+print("factorial of ",num,"is",fact(num))
 
-#import numpy
-#n=int(input("Enter a number:"))
-#a=numpy.prod([i for i in range(1,n+1)])
-#print(a)
+import numpy
+n=int(input("Enter a number:"))
+a=numpy.prod([i for i in range(1,n+1)])
+print(a)
 
 a=int(input("Enter a number:"))
 fact=1
